@@ -1,5 +1,42 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 h1 {
-  font-family: "Monserrat", sans-serif;
-  font-size: 48px;
+  color: #000000;
+  font-family: Monserrat, sans-serif;
+  font-size: 100px;
+  font-weight: normal;
   text-align: center;
 }
+h2 {
+  color: #000000;
+  font-family: Monserrat, sans-serif;
+  font-size: 48px;
+  font-weight: lighter;
+  text-align: center;
+}
+h5 {
+  color: #000000;
+  font-family: Monserrat, sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+button {
+  color: #000000;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 10px;
+  font-family: Monserrat, sans-serif;
+  font-size: 48px;
+  font-weight: lighter;
+  display: block;
+  margin: auto;
+}
+a:visited {
+  color: #ffffff;
+}
+a:not(:visited) {
+  color: #ffffff;
